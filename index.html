@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saiyajin Studio academia</title>
+    <link rel="stylesheet" href="/style/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="/img/dragon_ball_logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="home" id="home">
+            <div>
+                <div>
+                    <h2>Construa</h2>
+                    <h1>O Shape Lendário</h1>
+                    <div class="main-button"><a target="_blank" href="https://youtu.be/14R_ISlQUqg?si=UBm801OxJfJpN5RO">Transformar</a></div>
+                </div>        
+            </div>
+            <div>
+                <img src="/img/image.png" alt="">
+            </div>
+        </div> 
+         <div class="main2">
+            <div class="Guia">
+                <h1>Guia</h1>
+                <p>Os 3 passos para alcançar a perfeição</p>
+            </div>
+            <div class="card-box">
+                <div class="card1 card">
+                    <i class="bi bi-egg-fried"></i>
+                    <h1>Nutrição</h1>
+                    <p> Uma boa nutrição envolve obter uma quantidade equilibrada de nutrientes essenciais (como proteínas, carboidratos, gorduras, vitaminas e minerais)</p>
+                </div>
+                <div class="card2 card">
+                    <i class="bi bi-person-arms-up"></i>
+                    <h1>Treinamento</h1>
+                    <p>Neste tópico, abordaremos os exercícios que serão responsáveis pela construção do seu físico.</p>
+                </div>
+                <div class="card3 card">
+                    <i class="bi bi-book"></i>
+                    <h1>Disciplina</h1>
+                    <p> disciplina é essencial para manter a consistência e o foco necessários para alcançar objetivos</p>
+                </div>
+            </div>
+         </div>
+         <div class="main3">
+            <div class="boxmain3">
+                <h1>Calcule seu IMC</h1>
+                <p>A calculadora de índice de massa corporal (imc) calcula seu índice de massa com base no peso e altura</p>
+                <div>
+                    <input type="number" id="height" placeholder="Altura em CM">
+                    <input type="number" id="weight" placeholder="Peso">
+                </div>
+                <button class="calIMC" onclick="calcularImc()">Calcular IMC</button>
+                <p id="resultado-imc"></p>
+            </div>
+            <div class="boxmain3">
+                <img src="/img/Mister.png" id="resultadoimg">
+            </div>
+         </div>
+    <div class="main4">
+        <div>
+                <h1>Matricula</h1>
+            <p>Enviaremos um E-mail com mais informações</p>
+            <div>
+                <input type="text" placeholder="E-mail" id="email">
+                <button onclick="matricular()">Enviar</button>
+                <div id="aprovate"></div>
+            </div>
+        </div>
+        <div>
+            <img src="/img/goku.png" alt="">
+        </div>
+    </div>
+
+
+    </main>
+    <footer>
+        <nav>
+            <a href="#home">Sobre</a>
+            <a href="#number">Contato</a>
+            <a target="_blank" href="https://www.google.com.br/maps/place/GTA:+SA+Grove+Street/@33.8893542,-118.2201472,17z/data=!3m1!4b1!4m14!1m7!3m6!1s0x26671fc4e3ab7451:0x28b0323f133900a8!2sDragon+ball+heroes+AMV!8m2!3d12.7335786!4d121.8959892!16s%2Fg%2F11sbq9n0zz!3m5!1s0x80c2cb001b91f5c1:0xc71134d00f65859e!8m2!3d33.8893543!4d-118.2152763!16s%2Fg%2F11vwpnhly2?entry=ttu">Localização</a>
+        </nav>
+        <section id="number">
+            <a target="_blank" href="https://api.whatsapp.com/qr/IJ7RAMCEULAML1?autoload=1&app_absent=0"><i class="bi bi-whatsapp"></i></a>
+            <a target="_blank" href="https://www.instagram.com/matheusaugustosilva_santos/"><i class="bi bi-instagram"></i></a>
+            <a target="_blank" href="https://github.com/LuanMMartins"><i class="bi bi-github"></i></a>
+        </section>
+        <p class="name">&copy;Saiyajin Studio</p>
+    </footer>
+    <script src="/scripts/script.js"></script>
+    <script src="/scripts/matricula.js"></script>
+</body>
+</html>
